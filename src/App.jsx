@@ -36,7 +36,7 @@ function App() {
 
   //function for retrieving data from weather API
   async function retrieveWeatherData(){
-    const apiKey = "f9feb05a8b4638fdeb33885fdd00f5a4"
+    const apiKey = "super secret API key"
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
 
     try {
